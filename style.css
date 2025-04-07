@@ -1,0 +1,128 @@
+/* Header and Navigation */
+header {
+    background-color: goldenrod;
+    color: black ;
+    padding: 20px 0;
+  }
+body, h1, h2, h3, p, ul, ol, li, header, nav, section, main, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .cta{
+    color: blue;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:  grey;
+    color: black;
+  }
+
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  
+      
+  .hero {
+    background: url(images/bubbles.jpeg) no-repeat center center/cover
+    ;
+    color: #333;
+    text-align: center;
+    padding: 100px 20px;
+    font: bolder;
+  }
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .cta {
+    background-color: plum;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+  }
+/* Content Sections */
+.intro, .profile, .meal-details {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: burlywood;
+    border-radius: 5px;
+  }
+
+  
+  
+  .profile .bio {
+    flex: 1;
+  }
+  
+  /* Skills and Fun Facts */
+  .details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .details div {
+    flex: 1;
+  }
+  /* recipe content */
+  .meal-details{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: none;
+    color: whitesmoke  ;
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    .profile {
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile img {
+      margin: 0 0 20px;
+    }
+    .details {
+      flex-direction: column;
+    }
+  }  
+  
